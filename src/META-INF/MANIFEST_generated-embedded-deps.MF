@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1365321718315
+Build-Jdk: 1.6.0
+Built-By: az
+Bundle-ClassPath: .,WEB-INF/classes,WEB-INF/lib/servlet-api-2.5-20081211
+ .jar
+Bundle-ManifestVersion: 2
+Bundle-Name: hello-osgi
+Bundle-SymbolicName: hello-osgi
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime
+Embed-Directory: WEB-INF/lib
+Embed-Transitive: true
+Embedded-Artifacts: WEB-INF/lib/servlet-api-2.5-20081211.jar;g="org.mort
+ bay.jetty";a="servlet-api";v="2.5-20081211"
+Export-Package: com.aj;version="1.0.0.SNAPSHOT"
+Tool: Bnd-1.50.0

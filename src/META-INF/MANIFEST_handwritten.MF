@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: ash.rocks
+Bundle-Version: 1.0.0
+Bundle-ClassPath: WEB-INF/classes
+Web-ContextPath: /sayMyName
+Import-Package: javax.servlet.http;version="[2.5,3.0)", javax.servlet;version="[2.5,3.0)"
