@@ -4,7 +4,7 @@
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/hello-osgi-impl/src/main/webapp/WEB-INF/web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/hello-osgi-web/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
@@ -27,9 +27,9 @@
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/hello-osgi-impl/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/hello-osgi-impl/src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/hello-osgi-impl/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-osgi-web/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-osgi-web/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello-osgi-web/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
